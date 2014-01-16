@@ -1,7 +1,7 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\System32\stdole2.tlb#OLE Automation
-Reference=*\G{00020813-0000-0000-C000-000000000046}#1.2#0#C:\Program Files\Microsoft Office\Office10\EXCELC:\P#Microsoft Excel 8.0 Object Library
-Reference=*\G{00062FFF-0000-0000-C000-000000000046}#8.0#0#C:\PROGRA~1\MICROS~2\Office10\msoutl.olb#Microsoft Outlook 8.0 Object Library
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\Windows\system32\stdole2.tlb#OLE Automation
+Reference=*\G{00020813-0000-0000-C000-000000000046}#1.2#0#..\..\..\..\..\Program Files\Microsoft Office\Office14\EXCEL.EXE#Microsoft Excel 8.0 Object Library
+Reference=*\G{00062FFF-0000-0000-C000-000000000046}#8.0#0#..\..\..\..\..\Program Files\Microsoft Office\Office14\MSOUTL.OLB#Microsoft Outlook 8.0 Object Library
 Module=Module1; Module1.bas
 Form=Form1.frm
 Module=log; log.bas
@@ -31,6 +31,7 @@ FDIVCheck=0
 UnroundedFP=0
 StartMode=0
 Unattended=0
+Retained=0
 ThreadPerObject=0
 MaxNumberOfThreads=1
 

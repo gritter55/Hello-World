@@ -4,7 +4,6 @@ Dim appExcel As Excel.Application
 Sub Main()
     
     frmStatus.Show
-    UL "started Leonard.exe"
     If IsNewWeek() Then
         BackUpSheet
         UL "backed up workbook for new week"
